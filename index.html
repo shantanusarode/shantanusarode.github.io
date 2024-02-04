@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shantanu Sarode - Resume</title>
+    <title>Shantanu Sarode - Full Stack Engineer</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -14,12 +16,12 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        header {
+        .resume-header {
             text-align: center;
             margin-bottom: 30px;
         }
 
-        header img {
+        .resume-header img {
             border-radius: 50%;
             width: 150px;
             height: 150px;
@@ -28,12 +30,12 @@
             border: 5px solid #3498db;
         }
 
-        header h1 {
+        .resume-header h1 {
             color: #3498db;
             margin: 5px 0;
         }
 
-        header p {
+        .resume-header p {
             color: #777;
             margin: 5px 0;
         }
@@ -81,98 +83,110 @@
 </head>
 <body>
 
-    <header>
-        <img src="../photo.jpg" alt="Your Photo">
-        <h1>Shantanu Sarode</h1>
-        <p>Web Developer</p>
-    </header>
+    <div class="container">
+        <div class="resume-header">
+            <img src="your-photo.jpg" alt="Shantanu Sarode">
+            <h1>Shantanu Sarode</h1>
+            <p>Full Stack Engineer</p>
+            <p>2.5+ Years IT Experience | Full Stack Development</p>
+            <p>shantanu299@gmail.com | 9975608447 | Pune, India</p>
+            <a href="linkedin.com/in/shantanusarode" target="_blank">linkedin.com/in/shantanusarode</a>
+        </div>
 
-    <section>
-        <h2>Work Experience</h2>
-        <h3>Associate Consultant - HealthCare BU (Humana), Eviden</h3>
-        <p>03/2021 - Present, Pune, India</p>
-        <p>Eviden offers digital transformation solutions through IP-led products, cognitive solutions, and innovative outcome-based business models.</p>
-        <ul>
-            <li>Contributed to the development of business logic for new functionalities in C# ASP.NET.</li>
-            <li>Developed diverse applications utilizing ASP.NET, showcasing proficiency in creating robust and scalable solutions.</li>
-            <li>Integrated GLAPI certified pipeline through Azure DevOps, ensuring adherence to industry standards.</li>
-            <li>Implemented and customized various applications to meet specific client requirements.</li>
-            <li>Utilized Azure DevOps for seamless integration and continuous delivery.</li>
-            <li>Worked with SAFe Agile team across multiple applications and maintained progress in Azure Boards.</li>
-            <li>Fixed various bugs in multiple applications.</li>
-        </ul>
-    </section>
+        <section>
+            <h2>Work Experience</h2>
+            <h3>Associate Consultant - HealthCare BU (Humana), Eviden</h3>
+            <p>03/2021 - Present, Pune, India</p>
+            <p>Eviden offers digital transformation solutions through IP-led products, cognitive solutions, and innovative outcome-based business models.</p>
+            <ul>
+                <li>Contributed to the development of business logic for new functionalities in C# ASP.NET.</li>
+                <li>Developed diverse applications utilizing ASP.NET, showcasing proficiency in creating robust and scalable solutions.</li>
+                <li>Integrated GLAPI certified pipeline through Azure DevOps, ensuring adherence to industry standards.</li>
+                <li>Implemented and customized various applications to meet specific client requirements.</li>
+                <li>Utilized Azure DevOps for seamless integration and continuous delivery.</li>
+                <li>Worked with SAFe Agile team across multiple applications and maintained progress in Azure Boards.</li>
+                <li>Fixed various bugs in multiple applications.</li>
+            </ul>
+        </section>
 
-    <section>
-        <h2>Education</h2>
-        <p>Bachelor Of Engineering (IT) - PES'S Modern College Of Engineering, Pune, India</p>
-        <p>HSC - Vidya Bhavan Junior College, Pune, India</p>
-        <p>SSC - Vidya Bhavan High School, Pune, India</p>
-    </section>
+        <section>
+            <h2>Education</h2>
+            <p>Bachelor Of Engineering (IT) - PES'S Modern College Of Engineering, Pune, India</p>
+            <p>HSC - Vidya Bhavan Junior College, Pune, India</p>
+            <p>SSC - Vidya Bhavan High School, Pune, India</p>
+        </section>
 
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>ASP.NET</li>
-            <li>HTML/CSS</li>
-            <li>MySQL</li>
-            <li>MongoDB</li>
-            <li>JavaScript</li>
-            <li>C#</li>
-            <li>Java</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>BootStrap</li>
-            <li>Web API</li>
-            <li>PowerApps</li>
-            <li>Azure DevOps</li>
-        </ul>
-    </section>
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>ASP.NET</li>
+                <li>HTML/CSS</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>JavaScript</li>
+                <li>C#</li>
+                <li>Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>BootStrap</li>
+                <li>Web API</li>
+                <li>PowerApps</li>
+                <li>Azure DevOps</li>
+            </ul>
+        </section>
 
-    <section>
-        <h2>Projects</h2>
-        <h3>ESPC WebApp</h3>
-        <p>Played a pivotal role in enhancing Humana's ESPC (Enrollment Spreadsheet Processing Center) Web Application.</p>
+        <section>
+            <h2>Projects</h2>
+            <h3>ESPC WebApp</h3>
+            <p>Played a pivotal role in enhancing Humana's ESPC (Enrollment Spreadsheet Processing Center) Web Application.</p>
 
-        <h3>OPR WebApp</h3>
-        <p>Contributor to the Onetime Process Request (OPR) Web Application, enhancing data loading, translation, and copy operations.</p>
+            <h3>OPR WebApp</h3>
+            <p>Contributor to the Onetime Process Request (OPR) Web Application, enhancing data loading, translation, and copy operations.</p>
 
-        <h3>SPIDAR WebApp</h3>
-        <p>Contributed to the technologically advanced and user-friendly SPIDAR WebApp for managing and viewing customer enrollment forms.</p>
-    </section>
+            <h3>SPIDAR WebApp</h3>
+            <p>Contributed to the technologically advanced and user-friendly SPIDAR WebApp for managing and viewing customer enrollment forms.</p>
+        </section>
 
-    <section>
-        <h2>Achievements</h2>
-        <ul>
-            <li>Received Appreciation Letter from CEO of EVIDEN</li>
-            <li>Received a Silver Award in May 2023</li>
-            <li>Certified SAFe Agilist</li>
-            <li>Completed Azure Fundamentals certification AZ-900</li>
-        </ul>
-    </section>
+        <section>
+            <h2>Achievements</h2>
+            <ul>
+                <li>Received Appreciation Letter from CEO of EVIDEN</li>
+                <li>Received a Silver Award in May 2023</li>
+                <li>Certified SAFe Agilist</li>
+                <li>Completed Azure Fundamentals certification AZ-900</li>
+            </ul>
+        </section>
 
-    <section>
-        <h2>Languages</h2>
-        <ul>
-            <li>English</li>
-            <li>Marathi</li>
-            <li>Hindi</li>
-        </ul>
-    </section>
+        <section>
+            <h2>Languages</h2>
+            <ul>
+                <li>English</li>
+                <li>Marathi</li>
+                <li>Hindi</li>
+            </ul>
+        </section>
 
-    <section>
-        <h2>Interests</h2>
-        <ul>
-            <li>Cricket</li>
-            <li>Football</li>
-            <li>Swimming</li>
-            <li>Trekking</li>
-        </ul>
-    </section>
+        <section>
+            <h2>Interests</h2>
+            <ul>
+                <li>Cricket</li>
+                <li>Football</li>
+                <li>Swimming</li>
+                <li>Trekking</li>
+            </ul>
+        </section>
 
-    <footer>
-        <p>&copy; 2024 Shantanu Sarode. All rights reserved.</p>
-    </footer>
+        <footer>
+            <p>&copy; 2024 Shantanu Sarode. All rights reserved.</p>
+            <!-- Bootstrap Download PDF button -->
+            <a src="Resume.pdf" class="btn btn-primary" role="button" download>Download PDF</a>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
 </html>
